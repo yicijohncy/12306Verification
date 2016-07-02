@@ -1,0 +1,230 @@
+*{
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: rgba(255,255,255,0);
+}
+body,html{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.clear-fix:after {
+    content: '\20';
+    display: block;
+    height: 0;
+    clear: both;
+}
+header{
+    font-size: 0;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 49px;
+    line-height: 49px;
+    text-align: center;
+    font-size: 10px;
+    color: rgb(204, 204, 204);
+    background-color: rgb(238, 238, 238);
+}
+
+div.content{
+    /*display: none;*/
+    padding: 0 10px;
+}
+div.result{
+    display: none;
+    min-height: 463px;
+    background-image: url(http://7xp1cu.com2.z0.glb.qiniucdn.com/bg-map.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: auto 100%;
+    background-size: auto 100%;
+    margin-top: 15px;
+    text-align: center;
+}
+div.question .title{
+    height: 92px;
+    padding-top: 60px;
+    border-bottom: 1px rgb(224, 224, 224) solid;
+}
+div.question .title red{
+    color: rgb(230, 57, 79);
+}
+div.question .title word{
+    font-size: 18px;
+    display: inline-block;
+    padding-left: 10px;
+}
+div.question .selections{
+    font-size: 0;
+    padding-top: 10px;
+    width: 101.5%;
+}
+div.question .selections span{
+    position: relative;
+    width: 25%;
+    padding-right: 1.5%;
+    padding-bottom: 1.5%;
+    display: inline-block;
+}
+div.question .selections span img{
+    width: 100%;
+    height: 100%;
+}
+div.question .selections span em{
+    display: none;
+    position: absolute;
+    right: 8px;
+    bottom: 8px;
+    width: 24px;
+    height: 24px;
+    background-image: url(assets/icon-choose.png);
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+div.question .selections span em.show{
+    display: inline-block;
+}
+div.question .submit{
+    margin-top: 55px;
+    text-align: center;
+}
+#submit-button{
+    display: inline-block;
+    width: 180px;
+    height: 40px;
+    font-size: 15px;
+    line-height: 40px;
+    border-radius: 4px;
+    color: #fff;
+    background-color: rgb(255, 128, 0);
+}
+#submit-button:active{
+    background-color: #E57200;
+}
+
+
+div.result .title{
+    margin-top: 3px;
+    font-size: 15px;
+    line-height: 1.6;
+}
+div.result .subtitle{
+    font-size: 15px;
+    line-height: 1.6;
+}
+div.result .desc{
+    font-size: 18px;
+    color: rgb(51, 51, 51);
+    font-weight: bold;
+    margin-bottom: 35px;
+}
+
+div.result .ticket{
+    -webkit-background-origin: content-box;
+    background-origin: content-box;
+    padding-top: 30px;
+    height: 193px;
+    width: 100%;
+    background-image: url(http://7xp1cu.com2.z0.glb.qiniucdn.com/ticket.png);
+    -webkit-background-size: auto 100%;
+    background-size: auto 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    /*display: none;*/
+}
+div.result .tickets{
+    background-image: url(http://7xp1cu.com2.z0.glb.qiniucdn.com/tickets.png);
+}
+
+div.buttons span+span{
+    margin-left: 30px;
+}
+div.buttons span{
+    display: inline-block;
+    width: 120px;
+    height: 40px;
+    border-radius: 4px;
+    font-size: 15px;
+    color: #fff;
+    line-height: 40px;
+}
+#replay-button{
+    background-color: rgb(123, 208, 111);
+}
+#replay-button:active{
+    background-color: #6EBA63;
+}
+#share-button{
+    background-color: rgb(255, 128, 0);
+}
+#share-button:active{
+    background-color: #E57200;
+}
+#play-button{
+    background-color: rgb(255, 128, 0);
+    width: 180px;
+}
+#play-button:active{
+    background-color: #E57200;
+}
+
+.trans{
+    display: none;
+    padding: 0 10px;
+}
+.trans img{
+    padding-top: 54px;
+}
+.share-layer{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    background-color: rgba(0,0,0,0.6);
+}
+.share-layer img{
+    position: absolute;
+    right: 5%;
+    width: 70%;
+}
+
+#adv{
+    position: absolute;
+    bottom: 0;
+    z-index: 5;
+    display: none;
+    font-size: 0;
+}
+div.result .ticket-in-end{
+    margin-top: 70px;
+}
+div.result .desc-in-end{
+    margin-bottom: 60px;
+}
+
+@media screen and (max-height: 480px){
+    div.result .ticket-in-end{
+        margin-top: 35px;
+    }
+    div.result .desc-in-end{
+        margin-bottom: 30px;
+    }
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,254 @@
+[
+    {
+        "id": 1,
+        "question": "点击下图中<red>所有的</red><word>草泥马</word>",
+        "correct": [
+            7,
+            8
+        ]
+    },
+    {
+        "id": 2,
+        "question": "点击下图中<red>所有的</red><word>南方的冬天</word>",
+        "correct": [
+            1,
+            3
+        ]
+    },
+    {
+        "id": 3,
+        "question": "点击下图中<red>所有的</red><word>左手</word>",
+        "correct": [
+            7,
+            8
+        ]
+    },
+    {
+        "id": 4,
+        "question": "点击下图中<red>所有的</red><word>正品</word>",
+        "correct": [
+            2,
+            7
+        ]
+    },
+    {
+        "id": 5,
+        "question": "点击下图中<red>所有的</red><word>真美女</word>",
+        "correct": [
+            2,
+            6,
+            8
+        ]
+    },
+    {
+        "id": 6,
+        "question": "点击下图中<red>所有的</red><word>C罩杯</word>",
+        "correct": [
+            5,
+            6
+        ]
+    },
+    {
+        "id": 7,
+        "question": "点击下图中<red>所有的</red><word>阿扎尔</word>",
+        "correct": [
+            1,
+            2,
+            7
+        ]
+    },
+    {
+        "id": 8,
+        "question": "点击下图中<red>所有的</red><word>恋过的孙悟空</word>",
+        "correct": [
+            2,
+            6
+        ]
+    },
+    {
+        "id": 9,
+        "question": "点击下图中<red>所有的</red><word>白百合</word>",
+        "correct": [
+            1,
+            3,
+            7,
+            8
+        ]
+    },
+    {
+        "id": 10,
+        "question": "点击下图中<red>所有的</red><word>中国城市</word>",
+        "correct": [
+            3,
+            4,
+            6
+        ]
+    },
+    {
+        "id": 11,
+        "question": "点击下图中<red>所有的</red><word>非监狱风云的主角</word>",
+        "correct": [
+            4,
+            6
+        ]
+    },
+    {
+        "id": 12,
+        "question": "点击下图中<red>所有的</red><word>苍老师</word>",
+        "correct": [
+            4,
+            7
+        ]
+    },
+    {
+        "id": 13,
+        "question": "点击下图中<red>所有的</red><word>穿越主角</word>",
+        "correct": [
+            2,
+            5,
+            8
+        ]
+    },
+    {
+        "id": 14,
+        "question": "点击下图中<red>所有的</red><word>大葱</word>",
+        "correct": [
+            1,
+            8
+        ]
+    },
+    {
+        "id": 15,
+        "question": "点击下图中<red>所有的</red><word>打飞机</word>",
+        "correct": [
+            1,
+            2,
+            4
+        ]
+    },
+    {
+        "id": 16,
+        "question": "点击下图中<red>所有的</red><word>单身狗</word>",
+        "correct": [
+            3,
+            4,
+            7
+        ]
+    },
+    {
+        "id": 17,
+        "question": "点击下图中<red>所有的</red><word>二次元</word>",
+        "correct": [
+            1,
+            4,
+            6
+        ]
+    },
+    {
+        "id": 18,
+        "question": "点击下图中<red>所有的</red><word>房祖名</word>",
+        "correct": [
+            1,
+            5,
+            7
+        ]
+    },
+    {
+        "id": 19,
+        "question": "点击下图中<red>所有的</red><word>郭敬明</word>",
+        "correct": [
+            6
+        ]
+    },
+    {
+        "id": 20,
+        "question": "点击下图中<red>所有的</red><word>干爹和老公</word>",
+        "correct": [
+            2,
+            8
+        ]
+    },
+    {
+        "id": 21,
+        "question": "点击下图中<red>所有的</red><word>菊花</word>",
+        "correct": [
+            2,
+            5
+        ]
+    },
+    {
+        "id": 22,
+        "question": "点击下图中<red>所有的</red><word>柯基犬</word>",
+        "correct": [
+            5,
+            8
+        ]
+    },
+    {
+        "id": 23,
+        "question": "点击下图中<red>所有的</red><word>孔子</word>",
+        "correct": [
+            2,
+            6
+        ]
+    },
+    {
+        "id": 24,
+        "question": "点击下图中<red>所有的</red><word>手撕</word>",
+        "correct": [
+            3,
+            6
+        ]
+    },
+    {
+        "id": 25,
+        "question": "点击下图中<red>所有的</red><word>孙楠</word>",
+        "correct": [
+            2,
+            5,
+            7,
+            8
+        ]
+    },
+    {
+        "id": 26,
+        "question": "点击下图中<red>所有的</red><word>网络红人</word>",
+        "correct": [
+            4,
+            7,
+            8
+        ]
+    },
+    {
+        "id": 27,
+        "question": "点击下图中<red>所有的</red><word>乌龟</word>",
+        "correct": [
+            1,
+            4,
+            7
+        ]
+    },
+    {
+        "id": 28,
+        "question": "点击下图中<red>所有的</red><word>五仁月饼</word>",
+        "correct": [
+            5
+        ]
+    },
+    {
+        "id": 29,
+        "question": "点击下图中<red>所有的</red><word>结婚证</word>",
+        "correct": [
+            2,
+            3
+        ]
+    },
+    {
+        "id": 30,
+        "question": "点击下图中<red>所有的</red><word>牙膏</word>",
+        "correct": [
+            4,
+            7
+        ]
+    }
+]

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>抢票能力测试</title>
+    <link rel="stylesheet" type="text/css" href="style.css?v1">
+    <script>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "//hm.baidu.com/hm.js?f5e507693ab19395ee352472274cb952";
+      var s = document.getElementsByTagName("script")[0]; 
+      s.parentNode.insertBefore(hm, s);
+    })();
+    </script>
+    <script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+    <script src="http://sandbox-api.soundtooth.cn/game/jssdk_demo.php"></script>
+    <script>
+    wx.ready(function(){
+        wx.onMenuShareTimeline({
+            title: '逆天验证码，攻占12306抢车票',
+            link: 'https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx131b06b8cdbe4111&redirect_uri=http://sandbox-api.soundtooth.cn/game/redirect.php?game_id=7&response_type=code&scope=snsapi_userinfo&state=STATE#wechat_redirect',
+            imgUrl: 'http://7xp1cu.com2.z0.glb.qiniucdn.com/tickets.png'
+        });
+        wx.onMenuShareAppMessage({
+            title: '逆天验证码，攻占12306抢车票',
+            link: 'https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx131b06b8cdbe4111&redirect_uri=http://sandbox-api.soundtooth.cn/game/redirect.php?game_id=7&response_type=code&scope=snsapi_userinfo&state=STATE#wechat_redirect',
+            desc: '以前抢票靠网速, 现在抢票靠智商! 擦亮双眼来战吧骚年!!',
+            imgUrl: 'http://7xp1cu.com2.z0.glb.qiniucdn.com/tickets.png'
+        });
+    });
+    </script>
+</head>
+<body>
+    <header>
+        <img src="assets/banner.jpg" width="100%" alt="header-img">
+    </header>
+    <div class="content">
+        <div class="question">
+            <div class="title"></div>
+            <div class="selections"></div>
+            <div class="submit">
+                <span id="submit-button">提交</span>
+            </div>
+        </div>
+    </div>
+    <div class="trans trans-right">
+        <img src="assets/result-true.jpg" width="100%">
+    </div>
+    <div class="trans trans-wrong">
+        <img src="assets/result-false.jpg" width="100%">
+    </div>
+    <div class="result">
+        <div class="ticket"></div>
+        <div class="title">
+            <span id="nickname">我</span>共做对<span id="correct-count"></span>道奇葩验证码
+        </div>
+        <div class="subtitle"></div>
+        <div class="desc"></div>
+        <div class="buttons">
+            <span id="replay-button">再玩一次</span>
+            <span id="share-button">分享</span>
+        </div>
+    </div>
+
+    <!-- <footer>本网页由声牙科技有限公司提供</footer> -->
+
+    <div style="position:fixed;bottom:0;font-size: 0;" onclick="location.href='http://www.soundtooth.cn'">
+        <img src="http://share.soundtooth.cn/down.gif" width="100%">
+    </div>
+
+    <div id="adv">
+        <img src="assets/adv.png" width="100%" alt="">
+    </div>
+
+    <div class="share-layer">
+        <img src="assets/share-timeline.png" alt="">
+    </div>
+
+    <script src="http://libs.useso.com/js/zepto/1.1.3/zepto.min.js"></script>
+    <script src="touch.js"></script>
+    <script src="index.js?v3"></script>
+</body>
+</html>
